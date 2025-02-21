@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+    output: 'server',
     site: 'https://ljii.github.io',
     base: '/astrop',
 });
